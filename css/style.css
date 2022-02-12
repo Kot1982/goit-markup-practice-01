@@ -90,12 +90,19 @@ img {
   margin-right: 32px;
 }
 
+.header-tel-icon,
+.header-mail-icon {
+  margin-right: 13px;
+}
+
 .header-tel,
 .header-mail {
   font-weight: 700;
   font-size: 18px;
   line-height: 1.3;
   color: #ffffff;
+  display: flex;
+  align-items: center;
 }
 
 .header-btn {
@@ -192,7 +199,7 @@ img {
   margin-right: auto;
 }
 
-.categoris {
+.categories {
   padding: 64px 0;
 }
 
@@ -260,6 +267,9 @@ img {
   border: 1px solid #0061d9;
   border-radius: 50%;
   background-color: transparent;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .gallery-item:not(:last-child) {
